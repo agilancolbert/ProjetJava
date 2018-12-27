@@ -24,7 +24,7 @@ public class Programmeur {
     public int getId() {
         return id;
     }
-
+    // Vraiment besoin???
     public void setId(int id) {
         this.id = id;
     }
@@ -101,6 +101,7 @@ public class Programmeur {
         this.dateEmb = dateEmb;
     }
     
+    @Override
     public String toString(){
         String affichage = getMatricule() + " " + getNom() + " " + getPrenom() + " " + 
                             getAdresse() + " " + getPseudo() + " " + getResponsable() + " " + 
