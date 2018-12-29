@@ -174,6 +174,27 @@ public class DataTransac implements ActionsBD {
         return -1;
     }
     
+    public int updateProgrammeur(String matricule,String nom,String prenom,
+                                 String adresse, String pseudo, String responsable,
+                                 String hobby, String dateNaiss, String dateEmb){
+        try {
+            pstmt = dbConn.prepareStatement(Constantes.REQUETE_UPDATE);
+            pstmt.setString(1, nom);
+            pstmt.setString(2, prenom);
+            pstmt.setString(3, adresse);
+            pstmt.setString(4, pseudo);
+            pstmt.setString(5, responsable);
+            pstmt.setString(6, hobby);
+            pstmt.setString(7, dateNaiss);
+            pstmt.setString(8, dateEmb);
+            pstmt.setString(9, matricule);
+            return pstmt.executeUpdate();
+        } catch (SQLException ex) {
+            Logger.getLogger(DataTransac.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return -1;
+    }
+    
  
     
     
