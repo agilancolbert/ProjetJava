@@ -18,7 +18,7 @@ public class Start {
         //dt.deleteProgrammeur("test");
         //dt.updateProgrammeur("test", "BENZEBUT", "Karime", "test", "test", "test", "test", "2002-12-05", "2018-10-24");
         
-        new Vue().init();
+        new BienvenueVue().init();
     }
     
 }
