@@ -11,5 +11,13 @@ DataTransac.java
   -> Modifier réalisé.
   -> BienvenueVue réalisé.
   -> RESTE = Les autres vues associées à chacun des services.
-  
+
+31/12/2018
+
+	-> Développement des fonctionnalités terminé.
+	-> Documentation nécessaire
+	-> Rendre le code plus propre
+	-> Rendre l'interface plus user friendly
+	/!\ Saisie d'un Programmeur sans matricule possible /!\
+
   KR
