@@ -20,4 +20,9 @@ DataTransac.java
 	-> Rendre l'interface plus user friendly
 	/!\ Saisie d'un Programmeur sans matricule possible /!\
 
-  KR
+ 05/01/2018
+ 
+ 	-> Factorisation du code FAIT.
+	-> Amélioration de l'interface (Encore certaines choses à faire)
+	-> Documentation à Faire.
+	/!\ Problème de saisie d'un Programmeur sans matricule non résolu /!\
